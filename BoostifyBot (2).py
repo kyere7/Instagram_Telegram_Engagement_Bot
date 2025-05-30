@@ -91,8 +91,8 @@ async def scrape_instagram_data(first_time=True):
 
     return initial_likes_count if first_time else new_likes_count
 
-BOT_TOKEN: Final = "6848807139:AAE9UGtmSmut0JjzBnZ8tLgDFzJ-U5SSI-E"
-BOT_USERNAME: Final = "@boostifygrowthbot"
+BOT_TOKEN: Final = "token"
+BOT_USERNAME: Final = "username"
 
 users_username = {}
 
